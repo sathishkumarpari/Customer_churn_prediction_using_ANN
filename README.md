@@ -19,5 +19,9 @@ Scikit-Learn
 Keras (with TensorFlow backend)
 
 <h5>Handling imbalanced dataset</h5>
+To run the code <b>pip install imbalanced-learn</b>pip install imbalanced-learn
 
-Im
+<li>
+  
+</li>
+
