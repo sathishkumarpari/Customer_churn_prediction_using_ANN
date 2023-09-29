@@ -27,7 +27,7 @@ Model performance is evaluated using metrics such as accuracy, precision, recall
 <img
 
 <h5>Handling imbalanced dataset</h5>
-To run the code <b>pip install imbalanced-learn</b>pip install imbalanced-learn
+To run the code <b>pip install imbalanced-learn</b>
 
 <li>Undersampling</li>
 Check classification report above. f1-score for minority class 1 improved from 0.57 to 0.76. Score for class 0 reduced to 0.75 from 0.85 but that's ok. We have more generalized classifier which classifies both classes with similar prediction score
