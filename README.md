@@ -18,10 +18,26 @@ Pandas
 Scikit-Learn
 Keras (with TensorFlow backend)
 
+
+<h4>Result</h4>
+
+Model performance is evaluated using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC. Special attention is given to measuring the model's ability to correctly identify churned customers despite the imbalanced nature of the dataset
+
+<b>Before Handling imbalanced dataset</b>
+<img
+
 <h5>Handling imbalanced dataset</h5>
 To run the code <b>pip install imbalanced-learn</b>pip install imbalanced-learn
 
-<li>
-  
-</li>
+<li>Undersampling</li>
+Check classification report above. f1-score for minority class 1 improved from 0.57 to 0.76. Score for class 0 reduced to 0.75 from 0.85 but that's ok. We have more generalized classifier which classifies both classes with similar prediction score
+
+<li>Oversampling</li>
+Check classification report above. f1-score for minority class 1 improved from 0.57 to 0.76. Score for class 0 reduced to 0.75 from 0.85 but that's ok. We have more generalized classifier which classifies both classes with similar prediction score
+
+<li>SMOTE</li>
+SMOTE Oversampling increases f1 score of minority class 1 from 0.57 to 0.81 (huge improvement) Also over all accuracy improves from 0.78 to 0.80
+
+
+
 
