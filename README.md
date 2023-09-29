@@ -24,7 +24,7 @@ Keras (with TensorFlow backend)
 Model performance is evaluated using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC. Special attention is given to measuring the model's ability to correctly identify churned customers despite the imbalanced nature of the dataset
 
 <b>Before Handling imbalanced dataset</b>
-<img
+<img src="Customer churn.jpg" alt="Girl in a jacket" width="500" height="600">
 
 <h5>Handling imbalanced dataset</h5>
 To run the code <b>pip install imbalanced-learn</b>
